@@ -1,3 +1,14 @@
-﻿*.class
+# IntelliJ
 .idea/
+*.iml
 out/
+
+# Java compiled files
+*.class
+
+# Spring Boot / Maven
+target/
+
+# Windows
+Thumbs.db
+.metadata/
