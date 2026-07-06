@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: rgb(255, 194, 119);
+}
+table{
+    font-size: 30px;
+    border: 2px solid rgb(99, 219, 249);
+    width: 20em;
+
+    height: 20em;
+
+}
+th{
+    background-color: rgb(111, 241, 145) ;
+    color: black;
+}
+td{
+    text-align: center;
+    background-color: rgb(167, 155, 47);
+    color: black;
+}
+h1{
+    font-size: 60px;
+    color: rgb(79, 71, 71);
+    text-shadow: 1px 1px 4px firebrick;
+
+}
+h2{
+    font: 34px;
+    color: crimson;
+    text-shadow: 1px 1px 4px rgb(79, 71, 71);
+
+}
