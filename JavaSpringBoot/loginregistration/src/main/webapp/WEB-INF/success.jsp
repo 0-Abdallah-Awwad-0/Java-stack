@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Success</title>
+</head>
+<body>
+
+<h1>Welcome! You are logged in.</h1>
+
+<a href="/logout">Logout</a>
+
+</body>
+</html>

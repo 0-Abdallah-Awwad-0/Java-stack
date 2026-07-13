@@ -17,19 +17,19 @@ public class BookController {
     public BookController(BookService bookService){
         this.bookService=bookService;
     }
-//    this is for returning jsp file for the index file
+    //    this is for returning jsp file for the index file
     @RequestMapping("")
     public String index(){
         return "index";
     }
-//    here to show a book by its id
+    //    here to show a book by its id
     @RequestMapping("books/{id}")
     public String show(@PathVariable("id")long id, Model model){
         Book book = bookService.findBook(id);
         model.addAttribute("book",book);
         return "index";
     }
-//    here to show all books
+    //    here to show all books
     @RequestMapping("/books")
     public String showAllBooks(Model model){
         List<Book> book = bookService.allBooks();
